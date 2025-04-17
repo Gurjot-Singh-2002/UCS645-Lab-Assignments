@@ -80,3 +80,22 @@ This CUDA program implements merge sort on a 1000-element array using GPU-based 
 Sorted array (first 10):  
 0 0 2 2 4 6 8 9 10 11   
 Execution time (GPU): 1.2908 ms  
+
+**Part (c):**    
+Output Consistency:  
+• Both implementations produce the same sorted output, confirming the correctness of both approaches.  
+• Example (first 10 sorted elements): 0 0 2 2 4 6 8 9 10 11  
+
+Execution Time:  
+• CPU (Pipelined Merge Sort): 0.2030 ms  
+• GPU (CUDA Merge Sort): 1.2908 ms  
+
+Observation:  
+• The CPU-based pipelined implementation outperformed the CUDA-based implementation for array size N = 1000.  
+• This is likely due to:  
+  • Small input size not fully utilizing GPU parallelism.  
+  • Overhead of memory allocation, data transfer, and kernel launches on the GPU.  
+
+Conclusion:  
+• For smaller datasets, CPU-based merge sort may perform better due to lower overhead.  
+• GPU-based merge sort is expected to scale better and outperform the CPU version for larger input sizes where parallelism can be effectively exploited.  
