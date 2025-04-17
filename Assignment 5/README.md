@@ -17,7 +17,7 @@ This program performs element-wise vector addition of two arrays A and B using C
 4. Theoretical Bandwidth Calculation  
 • Device properties such as memoryClockRate and memoryBusWidth are queried using cudaGetDeviceProperties.  
 • The theoretical bandwidth is calculated using the formula:  
-theoreticalBW= (2*memoryClockRate (Hz)*memoryBusWidth (bits))/8*10^9  GB/s  
+theoreticalBW= (2*memoryClockRate (Hz) * memoryBusWidth (bits))/8*10^9  GB/s  
 • This value is printed to indicate the maximum bandwidth the GPU could theoretically achieve.  
 5. Measured Bandwidth Calculation  
 • The kernel reads vectors A and B (2 reads) and writes to C (1 write).  
