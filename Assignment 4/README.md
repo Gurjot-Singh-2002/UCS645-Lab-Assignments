@@ -81,7 +81,7 @@ Sorted array (first 10):
 0 0 2 2 4 6 8 9 10 11   
 Execution time (GPU): 1.2908 ms  
 
-**Part (c):**    
+**Part (c):**  Performance Comparison  
 Output Consistency:  
 • Both implementations produce the same sorted output, confirming the correctness of both approaches.  
 • Example (first 10 sorted elements): 0 0 2 2 4 6 8 9 10 11  
