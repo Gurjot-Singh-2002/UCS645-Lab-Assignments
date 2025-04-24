@@ -32,3 +32,7 @@ N = 50000, Time = 0.1689 ms
 N = 500000, Time = 0.0274 ms  
 N = 5000000, Time = 0.1908 ms  
 N = 50000000, Time = 1.8307 ms  
+
+**Graph:**  
+![image](https://github.com/user-attachments/assets/b758161e-24d0-4b6f-8a91-1d4daa69759a)
+
