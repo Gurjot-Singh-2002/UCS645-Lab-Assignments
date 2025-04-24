@@ -1,7 +1,7 @@
 # ASSIGNMENT 6 Code Description  
 
 **Prog 1:** sqrt_cuda.cu  
-Square Root Computation Using CUDA with Performance Profiling  
+**Square Root Computation Using CUDA with Performance Profiling**  
 This program computes the square root of elements in a large array A and stores the result in array C using CUDA. It measures the kernel execution time for different input sizes using CUDA event profiling and outputs the performance results. The goal is to analyze the cost of a computationally expensive operation (square root) on the GPU for increasing data sizes.  
 
 **Working:**   
